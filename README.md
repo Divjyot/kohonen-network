@@ -78,6 +78,8 @@ My Further Action
 ---------
 I revisited the codebase and started attacking the most computationaly expensive method in the codebase i.e. (euclidean) distance calculation method in <a href='utils/utils.py'>utils.py</a>. After learning <b>more</b> about vectorisation, I managed to convert method to use vectorization (that you see now in codebase). The result was nothing less than joy! :D 
 
-<div style='color:#FF4500;'> For a network of 100X100 for 1000 epocs run, I managed to turn around the total average time from 2-3 hours down to 24-25 seconds!</div>
+<div style='color:#FF4500;'>
+    For a network of 100X100 for 1000 run, I managed to turn around the average time for model training from `2-3 hours` down to `24-25 seconds`!
+</div>
 
 
