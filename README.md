@@ -1,8 +1,4 @@
-## Kohonen Challenge
-
-Please see [kohonen.ipynb](kohonen.ipynb)
-
-## Challenge Accepted!
+## Kohonen Network
 #### For more discussion, please see [kohonen.ipynb](kohonen.ipynb)
 
 Running from source code:
