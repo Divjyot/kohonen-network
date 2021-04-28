@@ -72,7 +72,7 @@ Project Outcome
 <div style="color:green; font-size:20px">
 
 To make Kohonen network more efficient, I tried using python-inbuilt Multiprocessing at first.
-However, as the results show (look at [kohonen.ipynb](kohonen.ipynb)), the larger model took more than an hour ie. not 'that' efficient. Upto this point, the challenge was submitted for evaluation.
+However, as the results show (look at [kohonen.ipynb](kohonen.ipynb)), the larger model took more than an hour ie. not 'that' efficient.
 
 My Further Action
 ---------
