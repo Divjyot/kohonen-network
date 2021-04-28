@@ -61,3 +61,23 @@ Project Structure
     - `Dockerfile` : <i>to package this project as REST API</i>
         - This is based on ```tiangolo/uvicorn-gunicorn-fastapi:latest``` image which has ```python==3.8.6``` preinstalled.
 </div>
+
+
+
+EDIT :
+-----
+
+Project Outcome
+------------------
+<div style="color:green; font-size:20px">
+
+To make Kohonen network more efficient, I tried using python-inbuilt Multiprocessing at first.
+However, as the results show (look at [kohonen.ipynb](kohonen.ipynb)), the larger model took more than an hour ie. not 'that' efficient. Upto this point, the challenge was submitted for evaluation.
+
+My Further Action
+---------
+I revisited the codebase and started attacking the most computationaly expensive method in the codebase i.e. (euclidean) distance calculation method in <a href='utils/utils.py'>utils.py</a>. After learning <b>more</b> about vectorisation, I managed to convert method to use vectorization (that you see now in codebase). The result was nothing less than joy! :D 
+
+<div style='color:#FF4500;'> For a network of 100X100 for 1000 epocs run, I managed to turn around the total average time from 2-3 hours down to 24-25 seconds!</div>
+
+
