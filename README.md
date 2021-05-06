@@ -82,4 +82,5 @@ I revisited the codebase and started attacking the most computationaly expensive
     For a network of 100X100 for 1000 run, I managed to turn around the average time for model training from ```2-3 hours``` down to ```24-25 seconds!```
 </div>
 
+![alt text](https://github.com/Divjyot/kohonen-network/blob/main/Final%20post%20npyVec.png)
 
